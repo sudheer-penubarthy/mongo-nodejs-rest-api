@@ -1,0 +1,22 @@
+{
+  "name": "mongo-rest-service-api",
+  "version": "1.0.0",
+  "description": "Rest api's generated in nodejs for accessing mongo collection and to be consumed by another layer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mongo-nodejs-rest-api"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs",
+    "rest",
+    "services",
+    "authorization"
+  ],
+  "author": "Sudheer Kumar",
+  "license": "ISC"
+}
