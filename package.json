@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "mongo-nodejs-rest-api"
+    "url": "https://github.com/sudheer-penubarthy/mongo-nodejs-rest-api.git"
   },
   "keywords": [
     "mongodb",
