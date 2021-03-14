@@ -1,7 +1,5 @@
 'use strict';
 
-const { ftruncateSync } = require('node:fs');
-
 var mongoose = require('mongoose'),
     Product = mongoose.model('Products');
 
@@ -46,7 +44,7 @@ exports.update_a_product = function(req, res) {
 
 // delete_a_product
 exports.delete_a_product = function(req, res) {
-    product.remove({
+    Product.remove({
         _id: req.params.productId
       }, function(err, task) {
         if (err)

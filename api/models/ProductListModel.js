@@ -16,7 +16,7 @@ var ProductSchema = new Schema({
   productType: {
     type: [{
       type: String,
-      enum: ['stationary', 'mobile', 'baby care']
+      enum: ['stationary', 'mobile', 'baby care', 'others']
     }],
     default: ['others']
   }
