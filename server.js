@@ -11,6 +11,12 @@ var express = require('express'),
   
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
+
+  // For 404 redirection
+  app.use(function(req, res) {
+    res.status(404).send({url: req.originalUrl + ' not found'})
+  });
+  
   
   var routes = require('./api/routes/ProductListRoutes'); //importing route
   routes(app); //register the route
